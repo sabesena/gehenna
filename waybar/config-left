@@ -1,0 +1,10 @@
+{
+  "layer": "top",
+  "output": "DP-1",
+  "position": "top",
+  "exclusive-zone": 0,
+  "margin-top": 6,
+  "margin-left": 8,
+  "width": 340,
+  "modules-left": ["clock", "cpu", "memory"]
+}

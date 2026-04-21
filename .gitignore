@@ -1,0 +1,13 @@
+# ✦ Gehenna — .gitignore
+
+hypr/*.bak
+hypr/scheme/current.conf
+fish/fish_variables
+mozilla/
+vesktop/sessionData/
+vesktop/ExtensionCache/
+vesktop/Crashpad/
+vesktop/Singleton*
+discord/
+obs-studio/logs/
+obs-studio/profiler_data/

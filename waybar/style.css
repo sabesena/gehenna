@@ -1,0 +1,61 @@
+/* ✦ Gehenna — waybar/style.css
+   ────────────────────────────── */
+
+@import "colors.css";
+
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 11px;
+  min-height: 0;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+window#waybar > box {
+  margin: 6px 8px 0 8px;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  background: @surface;
+  border: 1px solid @border;
+  border-radius: 12px;
+  padding: 3px 12px;
+}
+
+#clock, #cpu, #memory {
+  color: @text;
+  padding: 0 5px;
+}
+
+#workspaces button {
+  color: @muted;
+  background: transparent;
+  padding: 0 3px;
+  min-width: 7px;
+  border-radius: 4px;
+  margin: 0 2px;
+  font-size: 9px;
+}
+
+#workspaces button.active {
+  color: @accent;
+  background: @glow;
+  min-width: 18px;
+}
+
+#pulseaudio, #tray, #bluetooth {
+  color: @text;
+  padding: 0 5px;
+}
+
+#pulseaudio.muted {
+  color: @muted;
+}

@@ -1,0 +1,33 @@
+// ✦ Gehenna — fastfetch/config.jsonc
+// ─────────────────────────────────────
+{
+    "logo": {
+        "source": "~/Pictures/logo.gif",
+        "type": "kitty-icat",
+        "width": 38,
+        "height": 25,
+        "padding": { "top": 1, "left": 2, "right": 4 }
+    },
+    "modules": [
+        { "type": "title", "color": { "user": "cyan", "at": "white", "host": "cyan" } },
+        "separator",
+        { "type": "os",          "key": "OS",       "keyColor": "cyan" },
+        { "type": "kernel",      "key": "Kernel",   "keyColor": "cyan" },
+        { "type": "uptime",      "key": "Uptime",   "keyColor": "cyan" },
+        { "type": "packages",    "key": "Packages", "keyColor": "cyan" },
+        { "type": "shell",       "key": "Shell",    "keyColor": "cyan" },
+        "separator",
+        { "type": "wm",          "key": "WM",       "keyColor": "cyan" },
+        { "type": "theme",       "key": "Theme",    "keyColor": "cyan" },
+        { "type": "cursor",      "key": "Cursor",   "keyColor": "cyan" },
+        { "type": "terminalfont","key": "Font",     "keyColor": "cyan" },
+        "separator",
+        { "type": "display",     "key": "Display",  "keyColor": "cyan" },
+        { "type": "cpu",         "key": "CPU",      "keyColor": "cyan" },
+        { "type": "gpu",         "key": "GPU",      "keyColor": "cyan" },
+        { "type": "memory",      "key": "Memory",   "keyColor": "cyan" },
+        { "type": "disk",        "key": "Disk",     "keyColor": "cyan", "folders": "/" },
+        "separator",
+        { "type": "colors", "paddingLeft": 0, "symbol": "circle" }
+    ]
+}
